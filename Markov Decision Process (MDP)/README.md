@@ -20,3 +20,6 @@ We can think of the process of receiving a reward as an arbitrary function **f**
 **f(S<sub>t</sub> , A<sub>t</sub>) = R<sub>t+1</sub>**  
 The trajectory representing the sequential process of selecting an action from a state, transitioning to a new state, and receiving a reward can be represented as  
 S<sub>0</sub>, A<sub>0</sub>, R<sub>1</sub>,S<sub>1</sub>, A<sub>1</sub>, R<sub>2</sub>,S<sub>2</sub>, A<sub>2</sub>, R<sub>3</sub>,...  
+  
+Representing diagrammatically,  
+![](https://github.com/sanjay-thiyagarajan/Reinforcement_Learning/blob/main/Markov%20Decision%20Process%20(MDP)/MDP-diagram.jpg)
