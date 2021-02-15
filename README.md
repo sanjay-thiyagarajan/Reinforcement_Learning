@@ -5,3 +5,8 @@ Reinforcement learning (RL) is an area of machine learning that focuses on how y
 
 ## 2) Purpose of Writeup
 I made this repo to hold my notes while learning Reinforcement Learning which could help absolute beginners to get used to RL and its popular algorithms.
+
+--------
+## Contents
+--------
+1) [Markov Decision Process](https://github.com/sanjay-thiyagarajan/Reinforcement_Learning/tree/main/Markov%20Decision%20Process%20(MDP))
