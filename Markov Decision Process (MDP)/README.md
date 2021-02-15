@@ -14,3 +14,9 @@ Throughout this process, it is the agent's goal to maximize the total amount of 
 ## Mathematical Notation
 Let's say that we have a set of actions **A**, a set of states **S** and a set of rewards **R** and all of them have finite number of elements.
 At each time step t = **0,1,2,..** , the agent receives some representation of the environment's state S<sub>t</sub> ∈ **S**. Based on this state, the agent selects an action  A<sub>t</sub> ∈ **A**. This gives us the state-action pair (S<sub>t</sub> , A<sub>t</sub>).
+Time is then incremented to the next time step t+1 , and the environment is transitioned to a new state S<sub>t+1</sub> ∈ **S** . At this time, the agent receives a numerical reward R<sub>t+1</sub> ∈ **R** for the action A<sub>t</sub> taken from state S<sub>t</sub>.
+We can think of the process of receiving a reward as an arbitrary function **f**  that maps state-action pairs to rewards. At each time **t** , we have 
+
+**f(S<sub>t</sub> , A<sub>t</sub>) = R<sub>t+1</sub>**  
+The trajectory representing the sequential process of selecting an action from a state, transitioning to a new state, and receiving a reward can be represented as  
+S<sub>0</sub>, A<sub>0</sub>, R<sub>1</sub>,S<sub>1</sub>, A<sub>1</sub>, R<sub>2</sub>,S<sub>2</sub>, A<sub>2</sub>, R<sub>3</sub>,...  
